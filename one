@@ -1,0 +1,4 @@
+getgenv().loop = true
+while loop do task.wait()
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("blacks make me mad","all")
+end
